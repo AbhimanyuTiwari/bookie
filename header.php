@@ -45,8 +45,8 @@
 					</form>';
 				}
 				else{
-					echo '<a style="background-color: #0A2B30;color:#fff;width:100px;" href="login.php">Login</a>
-						<a style="background-color: #0A2B30;color:#fff;width:100px;" href="signup.php">Signup</a>';
+					echo '<a class="btn btn-primary"style="background-color: #0A2B30;color:#fff;width:100px;margin:10px; border:none" href="login.php" role="button">Login</a>
+						<a class="btn btn-primary" style="background-color: #0A2B30;color:#fff;width:100px; margin:10px; border:none" href="signup.php">Signup</a>';
 					
 				}
 			?>
