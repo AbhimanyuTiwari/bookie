@@ -19,16 +19,15 @@
 	
 	<body>
 		<div>
-			<h1>Signup</h1>
+			<h1>Login</h1>
 			
-			<form action="includes/signup.inc.php" method="post">
-				<input type="text" name="name" placeholder="Full Name">
-				<input type="text" name="mail" placeholder="E-mail">
-				<input type="text" name="cid" placeholder="College ID">
-				<input type="password" name="pwd" placeholder="Password">
-				<input type="password" name="pwd-repeat" placeholder="Repeat Password">
-				<button type="submit" name="signup-submit">Signup</button>
+			<form action="includes/login.inc.php" method="post">
+						<input type="text" name="mailcid" placeholder="College ID/E-mail...">
+						<input type="password" name="pwd" placeholder="Password...">
+						<button type="submit" name="login-submit">Login</button>
+			</form>
 		</div>
+		
 	<footer>
 		<div class="copy-right">
             <div class="container">
